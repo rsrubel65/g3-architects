@@ -1,0 +1,273 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container-section {
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+/* Header Menu Css */
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+
+    width: 0px 200px;
+
+}
+
+.hero-section {
+    background-color: #FFF4E7;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu ul {}
+
+ul li {
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+
+/* Brand-New text */
+
+.brand-new {
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 119px 380px;
+}
+
+.brand-h2 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.brand-hp {
+    color: #727272;
+    font-size: 16px;
+}
+
+.btn {
+
+    padding: 15px 25px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 700px;
+}
+
+/* This is team css */
+
+.team-section{
+    display: flex;
+}
+
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:24px;
+}
+
+.team-text-area{
+
+    margin-left: 73px;
+   
+    align-items: center;
+
+}
+
+.team-text{
+    display: flex;
+    align-items: center;
+}
+
+.container-section{
+    margin-top: 85px;
+}
+
+/* this is feature section css code */
+
+.features-section{
+    display: flex;
+
+}
+
+.feature-images{
+
+    width: 800px;
+   
+    position: relative;
+}
+
+.feature-img {
+width: 708px;
+height: 982px;
+margin-left: 92px;
+margin-bottom: 77px;
+
+
+}
+.feature-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.feature-small{
+   
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+ 
+}
+.small-box{
+    padding: 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.feature-head{
+    margin-top: 50px;
+}
+.feature-small h3{
+margin: 0px 0px 10px 0px;
+padding: 0px;
+
+}
+.feature-small p{
+margin:0 0;
+padding: 0px;
+}
+
+.offer{
+    width: 342px;
+height: 200px;
+background: #FF900E;
+border-radius: 8px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 0px;
+bottom:0px;
+}
+
+/* Some facts code is here */
+
+.some-fact-box{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 150px;
+}
+
+.box1{
+    border: 1px solid #FF900E;
+    padding: 80px;
+    text-align: center;
+    border: 1px solid #FF900E;
+border-radius: 8px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.box1:hover{
+   transition: 10ms;
+   transform: rotate(90deg);
+   transition-delay: 1ms;
+   transition: ease-in-out 1s;
+   
+}
+.box1 h5{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+}
+
+
+/* sponspors section */
+.our-sponspors{
+
+    text-align: center;
+    margin-top: 150px;
+}
+.img-sponspors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.our-sponspors h2{
+    font-size: 35px;
+}
+
+/* contact us  */
+.contact-us{
+    margin-top: 100px;
+}
+.icon img{
+    width:100% ;
+    height: 100%;
+}
+.icon{
+    width: 200px;
+    margin-top: 40px;
+}
+
+.contact-us{
+    display: flex;
+}
+
+.contact-text{
+    padding: 100px;
+}
+.contact-text h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+input{
+    padding: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+.msg{
+    padding: 100px;
+    margin-top: 20px;
+}
+/* footer */
+
+.footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    margin-top: 20px;
+}
