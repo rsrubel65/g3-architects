@@ -1,7 +1,10 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    margin:0px;
 }
-
+.top-zero{
+    margin-top: 0px;
+}
 .container-section {
     width: 1440px;
     margin: 0 auto;
@@ -106,7 +109,6 @@ ul li a {
 }
 
 .container-section{
-    margin-top: 85px;
 }
 
 /* this is feature section css code */
